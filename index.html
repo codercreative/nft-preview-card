@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="container margin-bottom">
+      <div class="img-container">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="equilibrium nft"
+          class="cover-img margin-bottom"
+        />
+        <div class="overlay">
+          <img
+            src="./images/icon-view.svg"
+            alt="eye-icon"
+            class="eye-icon ping"
+          />
+        </div>
+      </div>
+
+      <div class="text-content">
+        <h1 class="title">
+          <a href="#" class="white-text">Equilibrium #3429</a>
+        </h1>
+        <p class="text blue-text margin-bottom">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+
+      <ul class="row margin-bottom">
+        <li class="ethereum">
+          <img
+            src="./images/icon-ethereum.svg"
+            alt="ethereum icon"
+            aria-hidden="true"
+            class="ethereum-icon"
+          />
+
+          <span class="price"> 0.041 ETH</span>
+        </li>
+
+        <li class="clock">
+          <img
+            src="./images/icon-clock.svg"
+            alt="Clock icon"
+            aria-hidden="true"
+            class="clock-icon"
+          />
+          <span class="blue-text">3 days left</span>
+        </li>
+      </ul>
+
+      <figure class="avatar-container">
+        <img src="./images/image-avatar.png" alt="Avatar" class="avatar-img" />
+        <figcaption class="blue-text">
+          Creation of
+          <span
+            ><a href="#" class="avatar-name white-text">Jules Wyvern</a></span
+          >
+        </figcaption>
+      </figure>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Christina</a>.
+    </footer>
+  </body>
+</html>
